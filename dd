@@ -1,3 +1,10 @@
+---
+tags: [star, fs]
+---
+
+# Create 4GB virtual image
+dd if=/dev/zero of=4gb_hdd.img bs=1M count=4096
+
 # Read from {/dev/urandom} 2*512 Bytes and put it into {/tmp/test.txt}
 # Note: At the first iteration, we read 512 Bytes.
 # Note: At the second iteration, we read 512 Bytes.

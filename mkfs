@@ -1,0 +1,6 @@
+---
+tags: [star, fs]
+---
+
+#basic usage
+mkfs -t ext4 /dev/sda

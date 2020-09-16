@@ -1,0 +1,9 @@
+---
+tags: [fs, star]
+---
+
+# Scan partition table when setting up loop devices
+losetup -Pf --show 16gb_hdd.img
+
+# Detech loop device
+losetup -d 16gb_hdd.img

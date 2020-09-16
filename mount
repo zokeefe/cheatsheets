@@ -1,3 +1,13 @@
+---
+tags: [fs, star]
+---
+
+# Standard usage:
+mount -o rw -t ext4 /dev/sda /mnt/vhd
+
+# Mount a virtual loop device in rw:
+mount -o rw,loop -t ext4 vhd.img /mnt/vhd
+
 # To mount / partition as read-write in repair mode:
 mount -o remount,rw /
 
